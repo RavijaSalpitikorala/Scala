@@ -1,0 +1,634 @@
+2023.06.26 09:42:15 INFO  Started: Metals version 0.11.12 in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03' for client Visual Studio Code 1.79.2.
+Jun 26, 2023 9:42:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 26, 2023 9:42:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 26, 2023 9:42:15 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/.metals/metals (H2 2.1)
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.030s)
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 26, 2023 9:42:16 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.139s)
+2023.06.26 09:42:16 INFO  time: initialize in 0.75s
+2023.06.26 09:42:20 WARN  Build server is not auto-connectable.
+2023.06.26 09:42:20 WARN  no build tool detected in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.26 09:42:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:42:29 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 09:42:30 INFO  time: code lens generation in 9.24s
+2023.06.26 09:42:30 INFO  time: code lens generation in 9.95s
+2023.06.26 09:42:51 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:42:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:42:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:43:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:43:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:43:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:43:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:43:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+Jun 26, 2023 9:43:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+2023.06.26 09:43:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:44:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:44:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:44:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:20 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:45:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:48:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:48:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:48:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:48:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:48:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:49:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:49:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:49:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:17 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:51:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:52:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+Jun 26, 2023 9:53:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 695
+2023.06.26 09:53:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:53:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:54:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:55:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 09:56:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:00:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:01:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:02:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:20 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:03:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:04:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:04:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:04:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:36 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:05:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:06:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:06:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:06:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:06:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:07:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:07:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:07:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:07:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+Jun 26, 2023 10:08:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.26 10:08:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:08:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:09:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:33:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:33:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:33:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:34:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:35:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:35:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:36:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:36:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:36:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:36:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:36:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.26 10:38:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:38:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:38:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:39:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:46:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:46:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:48:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:48:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:48:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:48:51 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+Jun 26, 2023 10:48:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2270
+2023.06.26 10:48:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:48:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:49:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:49:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:49:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:49:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:50:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:51:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:51:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:51:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:51:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:51 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:53:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:55:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:56:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:56:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:56:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:56:36 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:57:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:58:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:58:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 10:59:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:00:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:00:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:11 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:01:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:02:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:02:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:03:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:05:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:05:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:05:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:12:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:13:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:13:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:14:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:14:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:14:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:14:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:15:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:15:14 INFO  Shutting down server
+2023.06.26 11:15:14 INFO  shutting down Metals
+2023.06.26 11:15:14 INFO  Exiting server
+2023.06.26 11:15:41 INFO  Started: Metals version 0.11.12 in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03' for client Visual Studio Code 1.79.2.
+Jun 26, 2023 11:15:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 26, 2023 11:15:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 26, 2023 11:15:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 26, 2023 11:15:42 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/.metals/metals (H2 2.1)
+Jun 26, 2023 11:15:42 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.062s)
+Jun 26, 2023 11:15:42 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 26, 2023 11:15:42 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.26 11:15:42 INFO  time: initialize in 0.72s
+2023.06.26 11:15:47 WARN  Build server is not auto-connectable.
+2023.06.26 11:15:47 WARN  no build tool detected in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.26 11:15:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:15:54 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.26 11:15:56 INFO  time: code lens generation in 9.4s
+2023.06.26 11:16:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:17:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:17:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:17:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:19:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:19:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:19:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:19:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:20:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:21:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:21:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:21:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:21:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:21:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:22:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:22:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:24:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:24:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:30:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.26 11:30:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:31:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:31:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:32:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:32:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:32:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 11:32:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:17:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:17 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:18:51 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:19:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:11 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:20:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+Jun 26, 2023 1:21:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1339
+2023.06.26 13:21:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:20 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:47 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:21:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:20 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:22:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:05 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:24 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:23:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:24:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:24:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:11 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:26:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:27:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:28:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:28:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:28:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:28:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:29:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:29:48 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:29:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:34:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:34:36 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:34:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:35:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:35:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:35:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:23 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:36:36 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:37:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+Jun 26, 2023 1:37:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2367
+2023.06.26 13:37:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:37:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:37:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:38:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:38:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:39:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:39:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:39:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:39:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:39:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:40:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:40:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:41:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:41:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:41:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:41:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:45 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:42:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:44:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:44:17 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:44:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:44:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:49:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:50:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:50:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:50:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:51:01 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:51:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:51:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:51:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 13:51:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+Jun 26, 2023 2:01:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2994
+2023.06.26 14:01:06 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:13 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:44 INFO  time: code lens generation in 3.46s
+2023.06.26 14:01:44 INFO  time: code lens generation in 2.77s
+Jun 26, 2023 2:01:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3088
+2023.06.26 14:01:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:51 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:53 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:01:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:02:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:02:50 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:02:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:02:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:02:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:18 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:21 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:28 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:32 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:03:40 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:18:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:18:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:18:57 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:19:08 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:19:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:19:22 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:19:29 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:19:30 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.26 14:21:22 INFO  Shutting down server
+2023.06.26 14:21:22 INFO  shutting down Metals
+2023.06.26 14:21:22 INFO  Exiting server
+2023.06.28 08:30:55 INFO  Started: Metals version 0.11.12 in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03' for client Visual Studio Code 1.79.2.
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/.metals/metals (H2 2.1)
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.033s)
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 28, 2023 8:30:55 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.28 08:30:55 INFO  time: initialize in 0.69s
+2023.06.28 08:31:00 WARN  Build server is not auto-connectable.
+2023.06.28 08:31:00 WARN  no build tool detected in workspace '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.28 08:31:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala
+2023.06.28 08:31:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:31:10 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.28 08:31:12 INFO  time: code lens generation in 12s
+2023.06.28 08:31:55 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:31:56 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:00 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:07 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:10 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:11 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:25 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:32:27 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:33:31 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+Jun 28, 2023 8:35:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2023.06.28 08:35:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.28 08:35:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.28 08:35:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.28 08:36:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q02.scala
+2023.06.28 08:42:34 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:42:35 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:42:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:42:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:42:46 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:42:49 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:44:41 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:44:43 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:44:58 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+Jun 28, 2023 8:45:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+2023.06.28 08:52:33 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:52:36 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:52:39 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:53:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:53:20 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:54:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 08:55:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:19:02 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:19:26 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:22:54 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:22:59 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:04 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:09 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:12 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:19 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:23:37 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:24:42 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:24:44 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:27:15 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 10:27:16 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 03/Q01.scala
+2023.06.28 20:52:12 INFO  Shutting down server
+2023.06.28 20:52:12 INFO  shutting down Metals
+2023.06.28 20:52:12 INFO  Exiting server

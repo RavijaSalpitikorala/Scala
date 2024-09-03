@@ -1,0 +1,492 @@
+2023.08.14 18:43:31 INFO  Started: Metals version 1.0.0 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08' for client Visual Studio Code 1.81.0.
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/metals (H2 2.1)
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 14, 2023 6:43:32 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.037s)
+2023.08.14 18:43:32 INFO  time: initialize in 0.75s
+2023.08.14 18:43:38 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+2023.08.14 18:43:39 INFO  Running List(/Users/ravija/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 18:43:39 INFO  Attempting to connect to the build server...
+2023.08.14 18:43:38 INFO  Attempting to connect to the build server...
+2023.08.14 18:43:39 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 18:43:39 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 18:43:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.14 18:43:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 18:43:43 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:44 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 18:43:44 INFO  time: Connected to build server in 5.29s
+2023.08.14 18:43:44 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.14 18:43:44 INFO  time: Connected to build server in 5.24s
+2023.08.14 18:43:44 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.14 18:43:45 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 4.516s)
+2023.08.14 18:43:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:43:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:43:46 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.14 18:43:46 INFO  time: code lens generation in 9.23s
+2023.08.14 18:43:48 INFO  time: Imported build in 2.65s
+2023.08.14 18:43:48 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 8.045s)
+2023.08.14 18:43:49 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.1' (since 8.108s)
+2023.08.14 18:43:51 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.14 18:43:53 INFO  time: code lens generation in 14s
+2023.08.14 18:43:58 ERROR error processing file:///Users/ravija/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0-sources.jar
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 1 */ 'EA85575F2DC8571379F61A7148AC395A' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:86)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:593)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:447)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:438)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:437)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:437)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$22(Indexer.scala:357)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:350)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21$adapted(Indexer.scala:346)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:346)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:146)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:146)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.08.14 18:43:58 INFO  time: indexed workspace in 9.57s
+2023.08.14 18:43:58 INFO  time: indexed workspace in 7.72s
+2023.08.14 18:44:03 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q02.scala
+2023.08.14 18:44:03 INFO  Disconnecting from scala-cli session...
+2023.08.14 18:44:03 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 22.527s)
+2023.08.14 18:44:03 INFO  Shut down connection with build server.
+2023.08.14 18:44:03 INFO  Attempting to connect to the build server...
+2023.08.14 18:44:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:03 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 18:44:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.14 18:44:05 INFO  time: compiled project_bd2c96d2de in 1.92s
+2023.08.14 18:44:05 INFO  time: Connected to build server in 2.05s
+2023.08.14 18:44:05 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.14 18:44:05 INFO  time: Imported build in 0.32s
+2023.08.14 18:44:05 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 24.93s)
+2023.08.14 18:44:05 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:05 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:05 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.14 18:44:11 INFO  time: indexed workspace in 5.42s
+2023.08.14 18:44:18 INFO  Refreshed build after change
+2023.08.14 18:44:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:22 INFO  time: compiled project_bd2c96d2de in 2.04s
+2023.08.14 18:44:43 INFO  Disconnecting from scala-cli session...
+2023.08.14 18:44:43 INFO  Shut down connection with build server.
+2023.08.14 18:44:43 INFO  Attempting to connect to the build server...
+2023.08.14 18:44:43 INFO  Failed to run request with params InverseSourcesResult
+2023.08.14 18:44:43 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 18:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.14 18:44:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:43 INFO  time: compiled project_bd2c96d2de in 0.42s
+2023.08.14 18:44:44 INFO  time: Connected to build server in 1.24s
+2023.08.14 18:44:44 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.14 18:44:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 18:44:49 INFO  time: compiled project_bd2c96d2de in 3.72s
+2023.08.14 18:44:49 INFO  time: indexed workspace in 4.72s
+2023.08.14 18:44:53 INFO  Refreshed build after change
+Aug 14, 2023 6:45:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.08.14 19:23:46 INFO  Shutting down server
+2023.08.14 19:23:46 INFO  shutting down Metals
+2023.08.14 19:23:47 INFO  Shut down connection with build server.
+2023.08.14 19:23:47 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.14 19:23:46 INFO  Exiting server
+2023.08.14 19:23:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.15 07:47:33 INFO  Started: Metals version 1.0.0 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08' for client Visual Studio Code 1.81.0.
+Aug 15, 2023 7:47:33 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 15, 2023 7:47:33 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 15, 2023 7:47:33 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 15, 2023 7:47:34 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/metals (H2 2.1)
+Aug 15, 2023 7:47:34 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+Aug 15, 2023 7:47:34 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 15, 2023 7:47:34 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.15 07:47:34 INFO  time: initialize in 0.73s
+2023.08.15 07:47:39 INFO  Attempting to connect to the build server...
+2023.08.15 07:47:39 WARN  No build session currently active to reload.
+2023.08.15 07:47:39 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.15 07:47:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.15 07:47:41 INFO  time: Connected to build server in 2.25s
+2023.08.15 07:47:41 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.15 07:47:45 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q03.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.15 07:47:45 INFO  time: code lens generation in 6.92s
+2023.08.15 07:47:46 INFO  time: Imported build in 0.32s
+2023.08.15 07:47:51 INFO  time: indexed workspace in 4.81s
+2023.08.15 08:34:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:34:57 INFO  time: compiled project_bd2c96d2de in 2.92s
+2023.08.15 08:37:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:27 INFO  time: compiled project_bd2c96d2de in 0.43s
+2023.08.15 08:37:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:31 INFO  time: compiled project_bd2c96d2de in 1.56s
+2023.08.15 08:37:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:37 INFO  time: compiled project_bd2c96d2de in 1.76s
+2023.08.15 08:37:37 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q03.scala
+2023.08.15 08:37:38 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:38 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.15 08:37:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:53 INFO  time: compiled project_bd2c96d2de in 1.66s
+2023.08.15 08:37:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:37:53 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q03.scala
+2023.08.15 08:37:53 INFO  time: compiled project_bd2c96d2de in 0.56s
+2023.08.15 08:37:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:38:00 INFO  time: compiled project_bd2c96d2de in 1.41s
+Aug 15, 2023 8:38:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 309
+2023.08.15 08:38:55 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:38:55 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.15 08:39:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:39:02 INFO  time: compiled project_bd2c96d2de in 2.39s
+2023.08.15 08:39:36 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:39:38 INFO  time: compiled project_bd2c96d2de in 1.63s
+2023.08.15 08:39:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:39:47 INFO  time: compiled project_bd2c96d2de in 1.8s
+2023.08.15 08:39:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:39:48 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q03.scala
+2023.08.15 08:39:47 INFO  time: compiled project_bd2c96d2de in 0.4s
+2023.08.15 08:40:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:40:07 INFO  time: compiled project_bd2c96d2de in 1.67s
+2023.08.15 08:40:31 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:40:32 INFO  time: compiled project_bd2c96d2de in 1.03s
+2023.08.15 08:40:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.15 08:40:37 INFO  time: compiled project_bd2c96d2de in 1.81s
+2023.08.15 08:41:50 INFO  Disconnecting from scala-cli session...
+2023.08.15 08:41:50 INFO  Shut down connection with build server.
+2023.08.15 08:41:50 INFO  Attempting to connect to the build server...
+2023.08.15 08:41:50 INFO  Cancelling compilation on scala-cli server
+2023.08.15 08:41:50 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08)
+2023.08.15 08:41:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.15 08:41:53 INFO  time: Connected to build server in 2.85s
+2023.08.15 08:41:53 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.15 08:41:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:41:55 INFO  time: compiled project_bd2c96d2de in 1.45s
+2023.08.15 08:41:55 INFO  time: Imported build in 1.96s
+2023.08.15 08:41:55 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:41:55 INFO  time: compiled project_bd2c96d2de in 0.82s
+2023.08.15 08:41:58 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:41:59 INFO  time: indexed workspace in 4.37s
+2023.08.15 08:42:04 INFO  time: compiled project_bd2c96d2de in 6.18s
+2023.08.15 08:42:04 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:04 INFO  time: compiled project_bd2c96d2de in 68ms
+2023.08.15 08:42:04 INFO  Refreshed build after change
+2023.08.15 08:42:04 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:07 INFO  time: compiled project_bd2c96d2de in 1.74s
+2023.08.15 08:42:07 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:07 INFO  time: compiled project_bd2c96d2de in 0.45s
+2023.08.15 08:42:08 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:09 INFO  time: compiled project_bd2c96d2de in 1.79s
+2023.08.15 08:42:15 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:17 INFO  time: compiled project_bd2c96d2de in 1.55s
+2023.08.15 08:42:46 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:47 INFO  time: compiled project_bd2c96d2de in 1.24s
+2023.08.15 08:42:47 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.15 08:42:48 INFO  time: compiled project_bd2c96d2de in 0.39s
+2023.08.15 08:43:12 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:43:13 INFO  time: compiled project_bd2c96d2de in 1.1s
+2023.08.15 08:43:13 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:43:13 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.15 08:43:22 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:43:23 INFO  time: compiled project_bd2c96d2de in 1.03s
+2023.08.15 08:43:31 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:43:31 INFO  time: compiled project_bd2c96d2de in 0.99s
+2023.08.15 08:44:01 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:02 INFO  time: compiled project_bd2c96d2de in 1.11s
+2023.08.15 08:44:06 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:07 INFO  time: compiled project_bd2c96d2de in 1.01s
+2023.08.15 08:44:10 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:10 INFO  time: compiled project_bd2c96d2de in 0.98s
+2023.08.15 08:44:11 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:11 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.15 08:44:12 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:14 INFO  time: compiled project_bd2c96d2de in 1.4s
+2023.08.15 08:44:22 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:23 INFO  time: compiled project_bd2c96d2de in 1.11s
+2023.08.15 08:44:49 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:50 INFO  time: compiled project_bd2c96d2de in 1.45s
+2023.08.15 08:44:50 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:50 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.08.15 08:44:53 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:44:53 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.15 08:45:17 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:45:18 INFO  time: compiled project_bd2c96d2de in 1.04s
+2023.08.15 08:45:22 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:45:23 INFO  time: compiled project_bd2c96d2de in 1.11s
+2023.08.15 08:45:32 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:45:34 INFO  time: compiled project_bd2c96d2de in 1.11s
+2023.08.15 08:45:37 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:45:38 INFO  time: compiled project_bd2c96d2de in 1.04s
+2023.08.15 08:45:38 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:45:38 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.15 08:46:49 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:46:50 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:50 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:49 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but 'val' found
+object val toUpper = (str: String) => str.toUpperCase()
+       ^^^
+2023.08.15 08:46:50 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but 'val' found
+object val toUpper = (str: String) => str.toUpperCase()
+       ^^^
+2023.08.15 08:46:50 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but 'val' found
+object val toUpper = (str: String) => str.toUpperCase()
+       ^^^
+2023.08.15 08:46:49 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but 'val' found
+object val toUpper = (str: String) => str.toUpperCase()
+       ^^^
+2023.08.15 08:46:49 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:51 INFO  time: compiled project_bd2c96d2de in 1.27s
+2023.08.15 08:46:51 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but 'val' found
+object val toUpper = (str: String) => str.toUpperCase()
+       ^^^
+2023.08.15 08:46:51 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:51 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:46:51 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but integer literal found
+object 03val toUpper = (str: String) => str.toUpperCase()
+       ^
+2023.08.15 08:46:51 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but integer literal found
+object 03val toUpper = (str: String) => str.toUpperCase()
+       ^
+2023.08.15 08:46:51 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:51 INFO  time: compiled project_bd2c96d2de in 0.18s
+2023.08.15 08:46:54 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but integer literal found
+object 03val toUpper = (str: String) => str.toUpperCase()
+       ^
+2023.08.15 08:46:54 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:54 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but integer literal found
+object 03val toUpper = (str: String) => str.toUpperCase()
+       ^
+2023.08.15 08:46:54 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:55 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1:8: stale bloop error: an identifier expected, but integer literal found
+object 03val toUpper = (str: String) => str.toUpperCase()
+       ^
+2023.08.15 08:46:55 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:20:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:46:55 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:46:56 INFO  time: compiled project_bd2c96d2de in 1.07s
+2023.08.15 08:46:56 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:46:58 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.15 08:46:59 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:00 INFO  time: compiled project_bd2c96d2de in 1.47s
+2023.08.15 08:47:00 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:00 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.08.15 08:47:05 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:06 INFO  time: compiled project_bd2c96d2de in 1.46s
+2023.08.15 08:47:14 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:16 INFO  time: compiled project_bd2c96d2de in 2.02s
+2023.08.15 08:47:41 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:22:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:47:41 INFO  file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:22:1: stale bloop error: main is already defined as method main in /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 08/Q01.scala
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+> def main(args: Array[String]): Unit = {
+>     println("Benny -> "+ formatNames("Benny", toUpper))
+>     println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+>     println("Saman -> "+formatNames("Saman",toLower))
+>     println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+> }
+2023.08.15 08:47:45 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:47 INFO  time: compiled project_bd2c96d2de in 2.33s
+2023.08.15 08:47:47 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:47 INFO  time: compiled project_bd2c96d2de in 0.46s
+2023.08.15 08:47:51 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:52 INFO  time: compiled project_bd2c96d2de in 1.54s
+2023.08.15 08:47:55 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:47:55 INFO  time: compiled project_bd2c96d2de in 0.79s
+2023.08.15 08:47:59 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:00 INFO  time: compiled project_bd2c96d2de in 1.06s
+2023.08.15 08:48:02 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:02 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.15 08:48:23 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:24 INFO  time: compiled project_bd2c96d2de in 1.18s
+2023.08.15 08:48:24 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:24 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.15 08:48:28 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:30 INFO  time: compiled project_bd2c96d2de in 1.35s
+2023.08.15 08:48:30 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:30 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.08.15 08:48:36 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:37 INFO  time: compiled project_bd2c96d2de in 1.72s
+2023.08.15 08:48:42 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:43 INFO  time: compiled project_bd2c96d2de in 1.42s
+2023.08.15 08:48:43 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:45 INFO  time: compiled project_bd2c96d2de in 1.81s
+2023.08.15 08:48:51 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:53 INFO  time: compiled project_bd2c96d2de in 1.45s
+2023.08.15 08:48:55 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:57 INFO  time: compiled project_bd2c96d2de in 1.31s
+2023.08.15 08:48:58 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:48:58 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.08.15 08:49:00 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:02 INFO  time: compiled project_bd2c96d2de in 1.35s
+2023.08.15 08:49:08 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:09 INFO  time: compiled project_bd2c96d2de in 1.38s
+2023.08.15 08:49:09 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:10 INFO  time: compiled project_bd2c96d2de in 0.3s
+2023.08.15 08:49:28 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:29 INFO  time: compiled project_bd2c96d2de in 1.34s
+2023.08.15 08:49:29 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:29 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.08.15 08:49:41 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:43 INFO  time: compiled project_bd2c96d2de in 1.65s
+2023.08.15 08:49:43 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:44 INFO  time: compiled project_bd2c96d2de in 0.64s
+2023.08.15 08:49:50 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:51 INFO  time: compiled project_bd2c96d2de in 1.38s
+2023.08.15 08:49:53 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:54 INFO  time: compiled project_bd2c96d2de in 1.27s
+2023.08.15 08:49:56 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:49:56 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.08.15 08:50:16 INFO  compiling project_bd2c96d2de (4 scala sources)
+2023.08.15 08:50:19 INFO  time: compiled project_bd2c96d2de in 2.23s
+2023.08.15 09:00:59 INFO  Shutting down server
+2023.08.15 09:00:59 INFO  shutting down Metals
+2023.08.15 09:01:00 INFO  Shut down connection with build server.
+2023.08.15 09:00:59 INFO  Exiting server

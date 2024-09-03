@@ -1,0 +1,46 @@
+id: file://<HOME>/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:[7..10) in Input.VirtualFile("file://<HOME>/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala", "object val toUpper = (str: String) => str.toUpperCase()
+val toLower = (str: String) => str.toLowerCase()
+val formatNames = (str: String, func: String => String) => func(str)
+
+def toUpperSpecific(name: String) : String = {
+    print("Enter the index: ")
+    var i = scala.io.StdIn.readInt()
+
+    if (i > name.length() - 1 || i < 0) {
+        println("Index out of range")
+        return name
+    }
+    name.updated(i, name(i).toUpper)
+}
+
+// def formatNames(name : String, formatter: (String) => String) : String = {
+//     formatter(name)
+// }
+
+def main(args: Array[String]): Unit = {
+    println("Benny -> "+ formatNames("Benny", toUpper))
+    println("Niroshan -> "+formatNames("Niroshan", toUpperSpecific)) //1
+    println("Saman -> "+formatNames("Saman",toLower))
+    println("Kumara -> "+formatNames("Kumara", toUpperSpecific)) //5
+}
+
+// object Q_3 {
+//     val toUpper = (str: String) => str.toUpperCase()
+//     val toLower = (str: String) => str.toLowerCase()
+//     val formatNames = (str: String, func: String => String) => func(str)
+ 
+//     def main(args: Array[String]): Unit = {
+//         var name1 = "Benney"
+//         var name2 = "Niroshan"
+//         var name3 = "Saman"
+//         var name4 = "Kumara"
+        
+//         println(formatNames(name1, toUpper))
+//         println(formatNames(name2.take(2), toUpper) + name2.drop(2)) 
+//         println(formatNames(name3, toLower))
+//         println(name4.dropRight(1) + formatNames(name4.takeRight(1), toUpper))
+//     }
+// }")
+file://<HOME>/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2008/Q03.scala:1: error: expected identifier; obtained val
+object val toUpper = (str: String) => str.toUpperCase()
+       ^

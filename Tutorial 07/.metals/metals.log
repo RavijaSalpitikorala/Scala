@@ -1,0 +1,228 @@
+2023.08.07 21:07:31 INFO  Started: Metals version 1.0.0 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07' for client Visual Studio Code 1.80.2.
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/metals (H2 2.1)
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Aug 07, 2023 9:07:31 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 07, 2023 9:07:32 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.039s)
+2023.08.07 21:07:32 INFO  time: initialize in 0.76s
+2023.08.07 21:07:47 INFO  Running List(/Users/ravija/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.07 21:07:47 INFO  Attempting to connect to the build server...
+2023.08.07 21:07:47 INFO  Attempting to connect to the build server...
+2023.08.07 21:07:47 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.07 21:07:47 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.07 21:07:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.07 21:07:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.07 21:07:47 INFO  BSP server: Starting compilation server
+2023.08.07 21:07:47 INFO  BSP server: Starting compilation server
+2023.08.07 21:07:50 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Aug 07, 2023 9:07:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Aug 07, 2023 9:07:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.08.07 21:07:52 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q01.scala
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:53 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 21:07:53 INFO  time: Connected to build server in 6.67s
+2023.08.07 21:07:53 INFO  time: Connected to build server in 6.6s
+2023.08.07 21:07:53 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.07 21:07:53 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.07 21:07:55 INFO  time: code lens generation in 18s
+2023.08.07 21:07:55 INFO  time: code lens generation in 3.35s
+2023.08.07 21:07:55 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 5.269s)
+2023.08.07 21:07:55 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:07:55 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:08:01 INFO  time: Imported build in 8.12s
+2023.08.07 21:08:01 INFO  time: Imported build in 8.12s
+2023.08.07 21:08:01 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 11.694s)
+2023.08.07 21:08:02 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.1' (since 11.747s)
+2023.08.07 21:08:07 ERROR error processing file:///Users/ravija/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0-sources.jar
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 1 */ 'EA85575F2DC8571379F61A7148AC395A' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:86)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:593)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:447)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:438)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:437)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:437)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$22(Indexer.scala:357)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:350)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21$adapted(Indexer.scala:346)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:346)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:146)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:146)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.08.07 21:08:07 INFO  time: indexed workspace in 5.87s
+2023.08.07 21:08:07 INFO  time: indexed workspace in 6.48s
+2023.08.07 21:08:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:08:12 INFO  time: compiled project_bd2c96d2de in 3.21s
+2023.08.07 21:08:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 20.646s)
+2023.08.07 21:08:12 INFO  Disconnecting from scala-cli session...
+2023.08.07 21:08:12 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 19.14s)
+2023.08.07 21:08:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:08:12 INFO  Shut down connection with build server.
+2023.08.07 21:08:12 INFO  Attempting to connect to the build server...
+2023.08.07 21:08:12 INFO  time: compiled project_bd2c96d2de in 13ms
+2023.08.07 21:08:12 INFO  Cancelling compilation on scala-cli server
+2023.08.07 21:08:12 INFO  Deduplicating compilation of project_bd2c96d2de-test from bsp client 'scala-cli 1.0.1' (since 20.699s)
+2023.08.07 21:08:12 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.07 21:08:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.07 21:08:13 INFO  time: Connected to build server in 1.11s
+2023.08.07 21:08:13 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.07 21:08:14 INFO  time: Imported build in 0.11s
+2023.08.07 21:08:14 INFO  time: code lens generation in 5.09s
+2023.08.07 21:08:14 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q03.scala
+2023.08.07 21:08:14 INFO  Disconnecting from scala-cli session...
+2023.08.07 21:08:14 INFO  Shut down connection with build server.
+2023.08.07 21:08:14 INFO  Attempting to connect to the build server...
+2023.08.07 21:08:14 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.07 21:08:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.07 21:08:14 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:08:15 INFO  time: Connected to build server in 1.14s
+2023.08.07 21:08:15 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.07 21:08:20 INFO  time: compiled project_bd2c96d2de in 5.48s
+2023.08.07 21:08:20 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 1.547s)
+2023.08.07 21:08:24 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q03.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.07 21:08:24 INFO  time: code lens generation in 9.62s
+2023.08.07 21:08:28 INFO  time: indexed workspace in 8.19s
+2023.08.07 21:08:28 INFO  time: indexed workspace in 14s
+2023.08.07 21:09:11 INFO  Refreshed build after change
+2023.08.07 21:09:11 INFO  Refreshed build after change
+2023.08.07 21:09:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:09:18 INFO  time: compiled project_bd2c96d2de in 2.61s
+2023.08.07 21:09:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:09:21 INFO  time: compiled project_bd2c96d2de in 1.65s
+2023.08.07 21:13:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:13:19 INFO  time: compiled project_bd2c96d2de in 3.25s
+2023.08.07 21:13:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:13:20 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q03.scala
+2023.08.07 21:13:21 INFO  time: compiled project_bd2c96d2de in 1.32s
+2023.08.07 21:14:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:14:03 INFO  time: compiled project_bd2c96d2de in 1.45s
+2023.08.07 21:15:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:16:00 INFO  time: compiled project_bd2c96d2de in 1.53s
+2023.08.07 21:16:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:16:06 INFO  time: compiled project_bd2c96d2de in 1.93s
+2023.08.07 21:16:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:16:09 INFO  time: compiled project_bd2c96d2de in 1.4s
+2023.08.07 21:18:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:18:10 INFO  time: compiled project_bd2c96d2de in 2.8s
+2023.08.07 21:18:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 21:18:11 INFO  time: compiled project_bd2c96d2de in 1.44s
+Aug 07, 2023 10:34:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.08.08 00:05:03 INFO  Shutting down server
+2023.08.08 00:05:03 INFO  shutting down Metals
+2023.08.08 00:05:03 INFO  Shut down connection with build server.
+2023.08.08 00:05:03 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.08 00:05:03 INFO  Exiting server
+2023.08.08 00:05:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.08 09:17:09 INFO  Started: Metals version 1.0.0 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07' for client Visual Studio Code 1.80.2.
+Aug 08, 2023 9:17:09 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 08, 2023 9:17:09 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 08, 2023 9:17:09 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 08, 2023 9:17:10 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/metals (H2 2.1)
+Aug 08, 2023 9:17:10 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+Aug 08, 2023 9:17:10 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 08, 2023 9:17:10 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.08 09:17:10 INFO  time: initialize in 0.79s
+2023.08.08 09:17:15 INFO  Attempting to connect to the build server...
+2023.08.08 09:17:15 WARN  No build session currently active to reload.
+2023.08.08 09:17:15 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07)
+2023.08.08 09:17:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.08 09:17:17 INFO  time: Connected to build server in 1.9s
+2023.08.08 09:17:17 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.08 09:17:22 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 07/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.08 09:17:22 INFO  time: code lens generation in 7.12s
+2023.08.08 09:17:22 INFO  time: Imported build in 0.31s
+2023.08.08 09:17:29 INFO  time: indexed workspace in 6.25s
+2023.08.08 09:21:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 09:21:22 INFO  time: compiled project_bd2c96d2de in 3.19s
+2023.08.08 09:21:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 09:21:22 INFO  time: compiled project_bd2c96d2de in 0.79s
+2023.08.08 09:21:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.08 09:21:28 INFO  time: compiled project_bd2c96d2de in 2.4s
+2023.08.08 09:27:06 INFO  Shutting down server
+2023.08.08 09:27:06 INFO  shutting down Metals
+2023.08.08 09:27:06 INFO  Shut down connection with build server.
+2023.08.08 09:27:06 INFO  Exiting server

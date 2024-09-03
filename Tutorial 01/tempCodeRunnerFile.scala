@@ -1,0 +1,1 @@
+calcArea(c:Int)
